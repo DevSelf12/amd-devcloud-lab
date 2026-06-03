@@ -1,0 +1,24 @@
+# Python / C++ build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.o
+*.out
+*.exe
+*.obj
+
+# ROCm / HIP build
+hip_bin/
+hip_tmp/
+*.hipfb
+
+# Env
+.env
+.env.*
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
